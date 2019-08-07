@@ -1,0 +1,38 @@
+form {
+	border: 2px solid slategrey;
+	border-radius: 8px;
+}
+
+.header {
+	text-align: center;
+	color: darkgreen;
+}
+
+#section-1 {
+}
+
+.container {
+	border: 2px outset darkslateblue;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	margin: 15px;
+
+}
+
+#color-change-button {
+	display: inline-block;
+	width: 30%;
+	border: 3px wave slategrey;
+	padding: 6px;
+	font-size: .75em;
+	border-radius: 5px;
+	margin: 10px 40px 10px 10px;
+}
+
+
+#red-text {
+
+}
+
+
