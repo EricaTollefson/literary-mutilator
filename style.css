@@ -20,19 +20,15 @@ form {
 
 }
 
-#color-change-button {
-	display: inline-block;
-	width: 30%;
-	border: 3px wave slategrey;
-	padding: 6px;
+.button-style {
+	display: block;
+	width: 250px;
+	border: 3px outset slategrey;
+	padding: 5px;
 	font-size: .75em;
 	border-radius: 5px;
-	margin: 10px 40px 10px 10px;
+	margin: 10px 30px 10px 10px;
 }
 
-
-#red-text {
-
-}
 
 

@@ -14,7 +14,7 @@
 			<section id="section-1">
 				<h1 class="header">My Literary Mutilator</h1>
 				<div class="container">
-					<button id="color-change-button" type="button" onclick="myColorChangeFunction()">Make this text red!</button>
+					<button class="button-style" type="button" onclick="myColorChangeFunction()">Make this text red!</button>
 					<p id="red-text">
 						Optional universe parameters providing Deep Thought transformative disposition
 						balls. Hyperspace created stand same powered when being million-gallon course get
@@ -30,22 +30,23 @@
 
 			<section id="section-2">
 				<div class="container">
-					<button id="color-change-button" type="button" onclick="myColorChangeFunction()">Make this text red!</button>
-					<p>
-						Anything proves crossing conscious more easy matrix received final oolon
-						cultures stop excretes telepathic ear load. Thought energy evolved chance
-						selling around practical have Babel Fish wars. Stolen whim bizarrely speech have
-						evolved small zebra supplied coincidence Deep Thought chosen history nothing
-						purely well prove brainwave Babel Fish patterns exist else communication
-						brainwave.
+					<button class="button-style" type="button" onclick="myShuffleFunction()">Mix up my words!</button>
+					<p id="shuffle-text">
+						Infinite Galaxy system reaches Ford Prefect shoe Sub-Meson vortex generator
+						improbable control ship thought used same changes found concert interior order
+						atomic destruction and cup of tea. Zaphod Beeblebrox petunias distances single
+						Infinite Improbability Drive angles allowing because indeterminacy including
+						creation into golden cabin flip soon simultaneously worked shade Trillian design
+						made mammals miserable across marine grumpily shared mucking hitchhiker stars
+						Infinite Improbability Drive.
 					</p>
 				</div>
 			</section>
 
 			<section id="section-3">
 				<div class="container">
-					<button id="color-change-button" type="button" onclick="myColorChangeFunction()">Make this text red!</button>
-					<p>
+					<button class="button-style" type="button" onclick="initHighlight()">Highlight this text!</button>
+					<p id="highlight-text">
 						Lorem Ipsum Hitchhiker simply generating synthesized improbability drive. Arthur
 						Dent closes world sector satisfaction secretively reasoning ship launch
 						physicists accident like science. Successful rulers effects of Babel
