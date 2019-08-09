@@ -11,9 +11,8 @@
 
 	<body>
 		<form>
-			<section id="section-1">
 				<h1 class="header">My Literary Mutilator</h1>
-				<div class="container">
+				<div class="section">
 					<button class="button-style" type="button" onclick="myColorChangeFunction()">Make this text red!</button>
 					<p id="red-text">
 						Optional universe parameters providing Deep Thought transformative disposition
@@ -26,10 +25,7 @@
 						craft during major foot.
 					</p>
 				</div>
-			</section>
-
-			<section id="section-2">
-				<div class="container">
+				<div class="section">
 					<button class="button-style" type="button" onclick="myShuffleFunction()">Mix up my words!</button>
 					<p id="shuffle-text">
 						Infinite Galaxy system reaches Ford Prefect shoe Sub-Meson vortex generator
@@ -41,10 +37,7 @@
 						Infinite Improbability Drive.
 					</p>
 				</div>
-			</section>
-
-			<section id="section-3">
-				<div class="container">
+				<div class="section">
 					<button class="button-style" type="button" onclick="initHighlight()">Highlight this text!</button>
 					<p id="highlight-text">
 						Lorem Ipsum Hitchhiker simply generating synthesized improbability drive. Arthur
@@ -56,8 +49,11 @@
 						Betelgeuse exactly building thus simply side effects of paranoid android Marvin.
 					</p>
 				</div>
-			</section>
-
+				<div id="section4">
+					<button class="button-style" type="button">Drag the box to the left!</button>
+					<div id="myDiv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+					<img id="box" src="box.jpg" draggable="true" ondragstart="drag(event)" width="94" height="87" alt="a box">
+				</div>
 		</form>
 	</body>
 

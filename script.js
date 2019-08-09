@@ -1,6 +1,10 @@
+//function to change text color
+
 function myColorChangeFunction() {
 	document.getElementById("red-text").style.color = "red";
 }
+
+//function to shuffle words in the second paragraph by clicking button
 
 function myShuffleFunction() {
 
@@ -31,20 +35,7 @@ function myShuffleFunction() {
 	});
 };
 
-/*window.onload = function () {
-	initHighlight();
-};
-
-function initHighlight() {
-	let colorBox = document.getElementById("highlight-text");
-	let rgb = {
-		red: document.getElementById("red"),
-		green: document.getElementById("green"),
-		blue: document.getElementById("blue"),
-	};
-	let colorPickers = document.getElementsByClassName("picker");
-	setColorPickerEventListeners(colorBox, rgb, colorPickers);
-}*/
+//function to highlight the third paragraph
 
 function initHighlight() {
 	var range = document.createRange();
@@ -56,9 +47,21 @@ function initHighlight() {
 	console.log(range);
 }
 
-//var tempArray = ['sandwich', 'soda', 'chips', 'cookie']
-//tempArray.replace(/,/g , " ");
+//function to drag an image to the left
 
-// and the result is...
-//alert(tempArray);
+function allowDrop(ev) {
+	ev.preventDefault();
+}
+
+function drag(ev) {
+	ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+	ev.preventDefault();
+	var data = ev.dataTransfer.getData("text");
+	ev.target.appendChild(document.getElementById(data));
+}
+
+
 
